@@ -1,4 +1,5 @@
 import "./App.css";
+import BookingData from "./components/BookingData/BookingData";
 import Form from "./components/Form/Form";
 import Nav from "./components/Nav/Nav";
 
@@ -7,6 +8,7 @@ function App() {
     <div className="App">
       <Nav />
       <Form />
+      <BookingData />
     </div>
   );
 }
