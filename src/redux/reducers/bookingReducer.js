@@ -10,7 +10,7 @@ const bookingReducer = (state = initialState, action) => {
     case ADD_BOOKING:
       return {
         ...state,
-        bookings: [...state.products, action.payload],
+        bookings: [...state.bookings, action.payload],
       };
     case REMOVE_BOOKING:
       return {
