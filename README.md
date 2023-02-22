@@ -1,7 +1,7 @@
 
 
-## Contents :
-# This is second task as part of the redux course I enrolled to learn core redux from Learn with Sumit platform (https://learnwithsumit.com/).
+# Contents :
+###This is second task as part of the redux course I enrolled to learn core redux from Learn with Sumit platform (https://learnwithsumit.com/).
 
 ✓ Implemneted with React-redux.
 
@@ -13,7 +13,7 @@
 
 ✓ After clicking on the delete button in the table, the row will be deleted, along with the data from the Redux store will also be deleted.
 
-## Live link :
+# Live link :
 
 (https://bookinghub.netlify.app/)
 
