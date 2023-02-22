@@ -754,7 +754,7 @@ img {
 }
 
 .logo {
-  width: 60px;
+  width: 70px;
   display: block;
 }
 
@@ -807,6 +807,15 @@ img {
     var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   --tw-shadow-color: rgb(120 11 205 / 0.4);
   --tw-shadow: var(--tw-shadow-colored);
+}
+.addCity:disabled {
+  background-color: #ccc;
+  color: #aaa;
+  cursor: not-allowed;
+}
+.addCity:disabled:hover {
+  background-color: #ccc;
+  color: #aaa;
 }
 
 .lws-remove {
