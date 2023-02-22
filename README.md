@@ -1,6 +1,6 @@
 
 
-## Contents of :
+## Contents :
 
 ✓ Implemnetd with React-redux.
 
