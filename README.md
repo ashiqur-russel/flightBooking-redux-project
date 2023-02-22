@@ -2,7 +2,7 @@
 
 ## Contents :
 
-✓ Implemnetd with React-redux.
+✓ Implemneted with React-redux.
 
 ✓ After filling up all the form input naming with Destination From, Destination To, Journey Date, Guests, Class if we click Book button then all data will   be save Redux store as individual booking object
 
