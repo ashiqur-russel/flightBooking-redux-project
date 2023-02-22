@@ -1,6 +1,6 @@
 
 
-## Contents of this simple project
+## Contents of :
 
 ✓ Implemnetd with React-redux.
 
