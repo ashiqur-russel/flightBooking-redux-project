@@ -1,5 +1,5 @@
 import React from "react";
-import { useDispatch } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import { addBooking } from "../../redux/actions/bookingAction";
 import { useForm } from "react-hook-form";
 
@@ -7,6 +7,7 @@ import { nanoid } from "nanoid";
 
 const Form = () => {
   const { register, handleSubmit } = useForm();
+  const bookings = useSelector((state) => state.bookings);
 
   const dispatch = useDispatch();
 
@@ -20,7 +21,6 @@ const Form = () => {
       guestTotal: data["lws-guests"],
       ticketClass: data["lws-ticketClass"],
     };
-    console.log(bookingData);
     dispatch(addBooking(bookingData));
   };
 
@@ -130,6 +130,7 @@ const Form = () => {
           </div>
 
           <button
+            disabled={bookings.length >= 3}
             className="addCity"
             type="submit"
             id="lws-addCity"
