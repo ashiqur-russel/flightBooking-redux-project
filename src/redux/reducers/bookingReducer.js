@@ -1,7 +1,6 @@
 import { ADD_BOOKING, REMOVE_BOOKING } from "../actionTypes/actionType";
 
 export const initialState = {
-  bookingCart: [],
   bookings: [],
 };
 
