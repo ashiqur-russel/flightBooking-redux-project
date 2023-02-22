@@ -1,6 +1,7 @@
 
 
 ## Contents :
+# This is second task as part of the redux course I enrolled to learn core redux from Learn with Sumit platform (https://learnwithsumit.com/).
 
 ✓ Implemneted with React-redux.
 
