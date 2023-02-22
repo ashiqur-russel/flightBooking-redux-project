@@ -1,16 +1,19 @@
 import React from "react";
-import { useDispatch, useSelector } from "react-redux";
+import { useDispatch } from "react-redux";
 import { addBooking } from "../../redux/actions/bookingAction";
 import { useForm } from "react-hook-form";
+
+import { nanoid } from "nanoid";
 
 const Form = () => {
   const { register, handleSubmit } = useForm();
 
-  const bookings = useSelector((state) => console.log(state.bookings));
   const dispatch = useDispatch();
 
   const submit = (data) => {
+    let id = nanoid();
     const bookingData = {
+      bookingId: id,
       destinationFrom: data["lws-from"],
       destinationTo: data["lws-to"],
       travelDate: data["lws-date"],

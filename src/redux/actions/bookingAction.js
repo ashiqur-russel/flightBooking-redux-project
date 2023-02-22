@@ -8,6 +8,7 @@ export const addBooking = (booking) => {
 };
 
 export const removeBooking = (booking) => {
+  console.log(booking);
   return {
     type: REMOVE_BOOKING,
     payload: booking,
